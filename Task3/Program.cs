@@ -160,14 +160,14 @@ namespace Task3
                             if (list[i] == deleteNumber)
                             {
                                 list.RemoveAt(i); 
-                                Console.WriteLine($"Number {deleteNumber} deleted successfully.");
+                                Console.WriteLine($"Number {deleteNumber} deleted successfully");
                                 deleted = true;
                                 break;
                             }
                         }
 
                         if (!deleted)
-                            Console.WriteLine($"Number {deleteNumber} not found in the list.");
+                            Console.WriteLine($"Number {deleteNumber} not found in the list");
                         break;
 
                     case 'Q':
